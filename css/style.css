@@ -8,7 +8,7 @@ body {
 
 .container {
   width: 253px;
-  height: 435px;
+  height: 455px;
   border: 1px solid white;
   border-radius: 5px;
   margin: 50px auto;
@@ -16,21 +16,23 @@ body {
 }
 
 .container .title {
-  font-family: 'Space Mono', monospace;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   text-align: center;
   font-weight: bolder;
-  font-size: 20px;
+  font-size: 25px;
   color: white;
-  padding: 10px 0px;
+  padding: 20px 0px;
   margin: 0%;
   display: block;
 }
 
 .container input[type=text] {
   text-align: end;
+  width: 243px;
   height: 50px;
   font-size: 20px;
-  font-family: 'Space Mono', monospace;
+  font-family: monospace;
+  font-weight: bold;
 }
 
 .container .calculator {
