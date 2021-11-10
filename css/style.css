@@ -8,7 +8,7 @@ body {
 
 .container {
   width: 253px;
-  height: 465px;
+  height: 460px;
   border: 1px solid white;
   border-radius: 5px;
   margin: 50px auto;
@@ -53,7 +53,7 @@ body {
 
 .container .buttons {
   width: 59px;
-  height: 60px;
+  height: 58px;
   border: 1px solid;
   border-radius: 5px;
   margin: 3px 0px;
