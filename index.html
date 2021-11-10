@@ -34,19 +34,7 @@
             <input type="button" value="=" onclick="compute()" class="equal-sign">
             <input type="button" value="ac" onclick="ac()" class="buttons">
         </form>
-        <script>
-            function display(Value) {
-                document.getElementById("monitor").value+=Value;
-            }
-           function compute() {
-               x = document.getElementById("monitor").value;
-               y = eval(x);
-               document.getElementById("monitor").value = y;
-           }
-            function ac() {
-                document.getElementById("monitor").value = "";
-            }
-        </script>
+        <script type="text/Javascript" src="script.js"></script>
     </div> 
 </body>
 </html>
